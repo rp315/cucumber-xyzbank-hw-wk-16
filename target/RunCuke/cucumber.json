@@ -1,0 +1,450 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6724233400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User as a bank manager should able to add customer successfully",
+        "description": "",
+        "id": "bank-test;user-as-a-bank-manager-should-able-to-add-customer-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1319705900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 301986200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on home page",
+            "match": {
+              "location": "BankStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 288125500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Bank Manager login tab",
+            "match": {
+              "location": "BankStepdefs.iClickOnBankManagerLoginTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 469922600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Add Customer tab",
+            "match": {
+              "location": "BankStepdefs.iClickOnAddCustomerTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1247867800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter First name \"Rajendra\" to First Name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rajendra",
+                  "offset": 20
+                }
+              ],
+              "location": "BankStepdefs.iEnterFirstNameToFirstNameField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1183723900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter Last Name \"Patel\" to Last Name Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Patel",
+                  "offset": 19
+                }
+              ],
+              "location": "BankStepdefs.iEnterLastNameToLastNameField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1197813600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter Postcode \"SO16 4RJ\" to Postcode Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SO16 4RJ",
+                  "offset": 18
+                }
+              ],
+              "location": "BankStepdefs.iEnterPostcodeToPostcodeField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156388300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on Add customer button",
+            "match": {
+              "location": "BankStepdefs.iClickOnAddCustomerButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19184100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am able to see popup display with \"Customer added successfully\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customer added successfully",
+                  "offset": 37
+                }
+              ],
+              "location": "BankStepdefs.iAmAbleToSeePopupDisplayWithMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33436900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should be able to click OK button on popup",
+            "match": {
+              "location": "BankStepdefs.iShouldBeAbleToClickOKButtonOnPopup()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Smoke"
+          },
+          {
+            "line": 5,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3819447200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User as a bank manager should able to open account successfully",
+        "description": "",
+        "id": "bank-test;user-as-a-bank-manager-should-able-to-open-account-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1140841400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 54900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I am on home page",
+            "match": {
+              "location": "BankStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 314189300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on Bank Manager login tab",
+            "match": {
+              "location": "BankStepdefs.iClickOnBankManagerLoginTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 579887700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on Add Customer tab",
+            "match": {
+              "location": "BankStepdefs.iClickOnAddCustomerTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1216838800,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter First name \"Rajendra\" to First Name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rajendra",
+                  "offset": 20
+                }
+              ],
+              "location": "BankStepdefs.iEnterFirstNameToFirstNameField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1178710000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter Last Name \"Patel\" to Last Name Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Patel",
+                  "offset": 19
+                }
+              ],
+              "location": "BankStepdefs.iEnterLastNameToLastNameField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1194595800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter Postcode \"SO16 4RJ\" to Postcode Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SO16 4RJ",
+                  "offset": 18
+                }
+              ],
+              "location": "BankStepdefs.iEnterPostcodeToPostcodeField(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 146109000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on Add customer button",
+            "match": {
+              "location": "BankStepdefs.iClickOnAddCustomerButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10961900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I am able to see popup display with \"Customer added successfully\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customer added successfully",
+                  "offset": 37
+                }
+              ],
+              "location": "BankStepdefs.iAmAbleToSeePopupDisplayWithMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21181600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I should be able to click OK button on popup",
+            "match": {
+              "location": "BankStepdefs.iShouldBeAbleToClickOKButtonOnPopup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158601900,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I click on Open Account tab",
+            "match": {
+              "location": "BankStepdefs.iClickOnOpenAccountTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 584890400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I select \"Rajendra Patel\" customer name which added before",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rajendra Patel",
+                  "offset": 10
+                }
+              ],
+              "location": "BankStepdefs.iSelectCustomerNameWhichAddedBefore(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 394171500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I select currency \"Pound\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pound",
+                  "offset": 19
+                }
+              ],
+              "location": "BankStepdefs.iSelectCurrency(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142665200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on Process button",
+            "match": {
+              "location": "BankStepdefs.iClickOnProcessButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9049300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I am able to see popup display with \"Account created successfully\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Account created successfully",
+                  "offset": 37
+                }
+              ],
+              "location": "BankStepdefs.iAmAbleToSeePopupDisplayWithMessage(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24994300,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I should be able to click OK button on popup",
+            "match": {
+              "location": "BankStepdefs.iShouldBeAbleToClickOKButtonOnPopup()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@Smoke"
+          },
+          {
+            "line": 17,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Bank Test",
+    "description": "\r\nAs a user I want to verify xyz bank account functionalities",
+    "id": "bank-test",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featureFile/bank.feature"
+  }
+]
